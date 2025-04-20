@@ -3,26 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Basic form page" />
     <title>01 - Form</title>
     <link rel="stylesheet" href="../_styles/styles.css" />
   </head>
   <body>
-    <h1>01 - Form</h1>
-    <form action="/submit">
-      <span>Name</span>
-      <input type="text" />
-      <br /><br />
-      <label>
-        Email
-        <input type="text" />
-      </label>
-      <br /><br />
-      <span>Favorite Character</span>
-      <div><input type="radio" id="spongebob" />Spongebob</div>
-      <div><input type="radio" id="patrick" />Patrick</div>
-      <div><input type="radio" id="sandy" />Sandy</div>
-      <br />
-      <button>Submit</button>
-    </form>
+    <main class="container">
+      <h1>01 - Form</h1>
+      <section aria-labelledby="submit-info">
+        <form action="/submit" id="submit-info">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="Name"
+                id="name"
+                placeholder="Full Name"
+              />
+              <br /><br />
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name="Email"
+                id="email"
+                placeholder="Email Address"
+              />
+            </div>
+          </fieldset>
+
+          <br /><br />
+          <fieldset>
+            <legend>Favorite Character</legend>
+            <div class="checkboxes">
+              <input type="radio" name="Character" id="spongebob" />
+              <label for="spongebob">Spongebob</label>
+              <input type="radio" name="Character" id="patrick" />
+              <label for="patrick">Patrick</label>
+              <input type="radio" name="Character" id="sandy" />
+              <label for="sandy">Sandy</label>
+            </div>
+          </fieldset>
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
