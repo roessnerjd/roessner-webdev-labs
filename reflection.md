@@ -11,7 +11,11 @@ forms.
 
 ### Accessibility
 
-Enter your reflections on this section here.
+This one was more easy because we already had practice with the forms before. I also added
+a few extras that were not a part of the video. This included creating a fieldset for both
+sections and also adding a main/section area. I also added "aria-labelledby" for better
+accessibility. I checked with the video after I was done to make sure I had done everything
+correctly. 
 
 ### CSS
 
