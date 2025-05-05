@@ -10,12 +10,39 @@
 
 /* Use attribute selectors for the first part of the exercise */
 
-li[class] {
+/* li[class] {
   color: var(--red);
-}
+} */
 
 /* Use descendant, child, and sibling selectors for the second part */
 
+/* Attribute Selectors for first section */
+li[id="cat"] {
+  color: var(--teal);
+}
+
+li[class^="p"] {
+  color: var(--green);
+}
+
+li[class*="do"] {
+  color: var(--royalblue);
+}
+
+li[class$="g"] {
+  color: var(--violet);
+}
+
+/* Parent and Sibling Selectors for second section */
+
 section li {
   color: var(--green);
+}
+
+.first ~ li {
+  color: var(--violet);
+}
+
+.second + li {
+  color: var(--royalblue);
 }

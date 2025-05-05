@@ -4,22 +4,52 @@ nav .list-item > a {
   color: var(--purple);
 }
 
+/* There is one class, and 2 elements. This gives
+the following specificity:
+(0,0,1,2)
+*/
+
 #main::first-letter {
   color: var(--purple);
 }
+
+/* There is one id, and one element. This gives
+the following specificity: 
+(0,1,0,1)
+*/
 
 input[type] {
   color: var(--purple);
 }
 
+/* There is one attribute, and one element. This gives
+the following specificity:
+(0,0,1,1)
+*/
+
 section .main::first-line {
   color: var(--purple);
 }
 
-nav ul.menu li#first a:not([class='visited']) {
+/* There is one class, and two elements. This gives the 
+following specificity:
+(0,0,1,2)
+*/
+
+nav ul.menu li#first a:not([class="visited"]) {
   color: var(--purple);
 }
+
+/* There is one id, 2 classes, and 4 elements. This gives 
+the following specificity: 
+(0,1,2,4)
+*/
 
 div ol li ul li ol li ul li a {
   color: var(--purple);
 }
+
+/* There are 10 elements. This gives the following
+specificity:
+(0,0,0,10)
+*/
