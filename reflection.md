@@ -19,4 +19,6 @@ correctly.
 
 ### CSS
 
-Enter your reflections on this section here.
+For the first week of CSS, it was more difficult on the last two. I almost finished the 5th,
+but couldn't start the 6th. The video playlist helped me get started and finish the lab work. 
+I also changed my work for the first portion. I had listed more code that wasn't necessary. 
