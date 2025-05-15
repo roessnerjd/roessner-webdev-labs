@@ -22,3 +22,9 @@ correctly.
 For the first week of CSS, it was more difficult on the last two. I almost finished the 5th,
 but couldn't start the 6th. The video playlist helped me get started and finish the lab work. 
 I also changed my work for the first portion. I had listed more code that wasn't necessary. 
+
+### JavaScript
+
+I had the most difficulty in this section. I've never used JS before, so it was hard to 
+understand. After going through the playlist/slides, it made it much more easy to understand.
+However, I think it will take more time to be more comfortable with JS. 
